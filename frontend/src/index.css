@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+}
+
+#wrapper,#imgWrapper{
+    left: 75%;
+}
+
+#Lunar{
+    position: absolute;
+    left: 68%;
+    z-index: 30;
+    height: 85%;
+    top: 10%;
+    margin-right: 50px;
+}
+#lodr{
+    position: absolute;
+    left: 0%;
+    z-index: 30;
+    height: 80%;
+    width: 45%;
+    top: 5%;
+    
+
+}
+
+#Title{
+    text-shadow: rgb(0, 0, 0, 0.1) 0px 2px 2px;
+}
+
+#Title p{
+    width: 50%;
+}
+
+#Middle{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    z-index: 30;
+    width: 50%;
+    height: 50%;
+}
+#Middle h1{
+    text-shadow: rgb(0, 0, 0, 0.1) 0px 2px 2px;
+}
+
+#Middle p{
+    width: 80%;
+}
+#specialtycontainer {
+    height: 40vh;
+    position: relative;
+}
+
+#specialtycontainer h1 {
+    text-shadow: rgb(0, 0, 0, 0.1) 0px 2px 2px;
+    left: 45%;
+}
+
+#features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.feature-item img {
+    position: relative;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.feature-text {
+    margin-top: 1rem; /* Adjust this value as needed */
+    text-align: center;
+    font-size: 1.25rem; /* Adjust this value as needed */
+    text-shadow: rgb(0, 0, 0, 0.1) 0px 2px 2px;
+}
+
+.feature-item img:hover{
+    transform: scale(1.1);
+}
+
+#got {
+    box-shadow: #58DCA4 10px 10px 5px;
+}
+#card{
+    transition: all 0.3s ease-in-out;
+
+}
+
+#card:hover{
+    transform: scale(1.1);
+}

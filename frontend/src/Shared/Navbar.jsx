@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-8">
           <img src={Logo} alt="Logo" className="w-20 h-20" />
 
-          <a href="#" className="text-lg text-black hover:bg-black hover:text-white transition-all 1s ease-in-out p-5">Home</a>
+          <Link to={'/'}> <a href="#" className="text-lg text-black hover:bg-black hover:text-white transition-all 1s ease-in-out p-5">Home</a></Link>
           <Link to={'/browse'}>  <a href="#" className="text-lg text-black hover:bg-black hover:text-white transition-all  ease-in-ou p-5">Browse</a></Link>
           <div className="flex items-center space-x-4">
             <FaSearch className="text-black" />
@@ -27,7 +27,7 @@ const Navbar = () => {
 
         <div className="flex items-center space-x-4">
           <a href="#" className="text-lg text-black hover:bg-black hover:text-white transition-all  ease-in-out p-5 ">Sign Up</a>
-          <a href="#" className="text-lg text-black hover:bg-black hover:text-white transition-all  ease-in-out p-5 ">Sign In</a>
+        <Link to={'/signin'}>  <a href="#" className="text-lg text-black hover:bg-black hover:text-white transition-all  ease-in-out p-5 ">Sign In</a></Link>
         </div>
       </div>
     </motion.div>

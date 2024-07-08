@@ -142,3 +142,8 @@ body{
     bottom: 50%;
     left: 80%;
 }
+#signSvg2 {
+    transform: rotate(90deg);
+    left: 80%;
+    top: 50%;
+}

@@ -4,6 +4,7 @@ import Footer from './Shared/Footer'
 import Browse from './Pages/Browse'
 import Navbar from './Shared/Navbar'
 import SignIn from './Pages/SignIn'
+import Signup from './Pages/Signup'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/browse" element={<Browse />} />
         <Route path="/signin" element={<SignIn />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
         <Footer />
     </Router>
